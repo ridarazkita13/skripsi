@@ -1,0 +1,76 @@
+Bab II
+ 
+- http://informatika.stei.itb.ac.id/~rinaldi.munir/Buku/Pengolahan%20Citra%20Digital/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://digilib.unila.ac.id/9938/13/1%20PENDAHULUAN.pdf
+http://repository.usu.ac.id/bitstream/handle/123456789/55650/Chapter%20I.pdf?sequence=4&isAllowed=y (LATARBELAKANG)
+
+
+Spermato?oa yang normal harus memiliki kepala bulat lonjong ;o&al<, leher, dan ekor tunggal sedangkan ?entuk sperma yang 
+abnormal adalahB #akro B %0 C Dkepala normal,#ikro B %0 C E kepala normal.TaperB kurus, lebar kepala F dari yang normal,
+tidak jelas batas akrosom, memberi gambaran "erutu. +iriB memberi gambaran ”tetesan air mata”;8eneser (77/<.
+
+A self-improving convolution neural network for classification of hyperspectral (hal 1537-1541)
+Convolutional Neural Network With Data Augmentation For SAR Target Recognition (hal 364 -368 )
+
+
+perubahan :
+Untuk mengklasifikasi abnormalitas spermhead manusia, maka dirancanglah sistem yang menggunakan metode Morfologi dan 
+Convolution Neural Network. Pada penelitian ini metode Morfologi yang digunakan adalah dilasi dan erosi. Kemudian 
+metode Morfologi akan dilanjutkan menggunakan algoritma Convolution Neural Network (CNN).
+ CNN (Convolutional Neural Network) melatih dan menguji setiap gambar masukan melalui serangkaian proses, yaitu 
+Feature Learning dan Classification. Dimana dalam proses Feature Learning terdapat beberapa layer seperti convolutional 
+layer yang diikuti oleh pooling untuk mengekstraksi fitur dari gambar masukan berturut-turut. 
+Setelah operasi Pooling, akan dilakukan proses ReLU (Rectified Linear Unit) dimana proses ini akan melakukan vanishing 
+gradien dengan cara menerapkan fungsi aktivasi element. Selanjutnya akan diproses pada tahap Classification , kemudian 
+dimasukkan ke proses Fully Connected-Layer dan sofmax untuk melaksanakan tugas  pengklasifikasian (Prabhu, 2018). 
+Pada lapisan Convolutional Layer terdapat jaringan yang tersusun sedemikian rupa sehingga membentuk sebuah filter dengan 
+ukuran 5x5x3. panjang 5 pixel, tinggi 5 pixel serta jumlah filter sebanyak 3 buah . Kemudian pada lapisan pooling layer 
+gambar yang telah difilter akan mengalami pergeseran filter sehingga mengurangi dimensi dari feature map sehingga 
+mempercepat komputasi. Setelah itu akan melewati proses Fully Connection Layer, layer ini bertujuan untuk melakukan 
+transformasi pada dimensi data agar data dapat diklasifikasikan secara linear. Setiap jaringan pada Convolutional Layer 
+perlu ditransformasikan menjadi data satu dimensi terlebih dahulu sebelum dapat dimasukkan kedalam sebuah Fully Connection
+Layer. Karena hal tersebut dapat menyebabkan data kehilangan informasi spasialnya dan tidak reversible. (E.P, et al., 2016)
+
+ Proses pembuahan reproduksi dapat terjadi ketika sel sperma dapat menembus sel telur. Didalam proses terjadinya pembuahan 
+dibutuhkan tingkat kesuburan yang baik sehingga sel sperma dan sel telur dapat melebur menjadi satu. Menurut Venkatesh 
+S,et al. (2009) tingkat kesuburan tidak hanya tergantung pada wanita, tetapi kesuburan pria juga berperan penting dalam 
+proses pembuahan ini. Ketidaksuburan sekitar 40% disebabkan oleh kelainan pada pria. Setengah dari kasus ketidaksuburan 
+pada pria tersebut disebabkan oleh kelainan morfologis sperma (teratozoospermia) (Shamsi MB et al, 2008). Saat ini 
+klasifikasi bentuk sperma masih dilakukan secara manual dan bersifat subjektif (Johny BF, 2011). Masalah yang ditemukan 
+pada penelitian sebelumnya ialah pengklasifikasian abnormalitas sel spermhead masih menggunakan dataset tunggal sehingga 
+perlu dilakukan proses pemotongan gambar.
+
+
+
+
+Untuk mendiagnosis
+Infertilitas pada pria, pemeriksaan semen dilakukan di
+salah satu langkah adalah penilaian morfologi sperma.
+Penilaian morfologi sperma melibatkan menemukan
+persentase morfologi abnormal sperma dan jenis mereka
+kelainan. Penilaian manual kelainan sperma
+ini dikenal subjektif serta memakan waktu [Shaker, F., Monadjemi, S. A., & Alirezaie, J. (2017). Classification of human 
+sperm heads using elliptic features and LDA. 2017 
+3rd International Conference on Pattern Recognition and Image Analysis (IPRIA). doi:10.1109/pria.2017.7983036 ], sehingga
+metode otomatis dicari
+
+
+kelemahan dari jurnal shaker :
+Kelemahan dari memperkenalkan
+Fitur elips adalah peningkatan kecil dalam kebingungan antara
+Kelas pyriform dan amorphous.
